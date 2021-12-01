@@ -3,7 +3,7 @@ import java.util.Date;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "consolidacion")
+@Document(collection = "consolidado")
 public class Consolidacion {
 	
     @Id
